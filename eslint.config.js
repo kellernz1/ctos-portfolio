@@ -7,6 +7,14 @@ export default [
   {
     ignores: ["dist/**", "node_modules/**", "coverage/**", "*.tsbuildinfo"],
   },
+  {
+    files: ["*.config.{js,ts}"],
+    languageOptions: {
+      globals: {
+        process: "readonly",
+      },
+    },
+  },
   js.configs.recommended,
   {
     files: ["**/*.{ts,tsx}"],

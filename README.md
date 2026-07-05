@@ -11,6 +11,16 @@ npm run test
 npm run build
 ```
 
+## GitHub Pages
+
+This repository is configured for GitHub Pages through GitHub Actions.
+
+- Production URL: `https://kellernz1.github.io/ctos-portfolio/`
+- Vite uses `/ctos-portfolio/` as the asset base automatically inside GitHub Actions through `GITHUB_REPOSITORY`.
+- Local development keeps `/` as the base path.
+
+In the GitHub repository settings, set Pages source to **GitHub Actions**.
+
 ## Implemented MVP
 
 - Boot sequence with click/Esc skip and `localStorage` persistence.
