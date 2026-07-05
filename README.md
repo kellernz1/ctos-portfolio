@@ -31,5 +31,3 @@ In the GitHub repository settings, set Pages source to **GitHub Actions**.
 - Skill scanner animation respecting `prefers-reduced-motion`.
 - Project explorer with multi-stack filters and accessible status labels.
 - Decorative Konami unlock for intense matrix rain.
-
-Replace `public/resume.pdf` with the final resume PDF and update `src/data/profile.ts` with the final LinkedIn/email details.
